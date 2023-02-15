@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  margin: 1px;
+  padding: 1px;
+}
+
+.Logo a {
+  font-size: 20px;
+  color: #6070ff;
+  margin-top: px;
+  padding: 10px;
+}
+
+nav i {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: #6070ff;
+  width: 12px;
+  height: 3px;
+  margin-bottom: 20px;
+}
+
+.Header-main {
+  background-image: url(header-shapes-mobile.png);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 687.15px;
+  left: -34px;
+  top: 104px;
+}
+
+.Header-main h1 {
+  margin-left: 5px;
+  width: 375px;
+  height: 150px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  display: flex;
+  position: relative;
+  top: 5%;
+  left: 4%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: center;
+  color: #172b4d;
+}
+
+.Header-main p {
+  position: relative;
+  top: 2.5%;
+  left: 3%;
+  margin-left: 10px;
+  margin-right: 30px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.Header-main h3 {
+  color: #7f8cff;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.Header-main i {
+  position: relative;
+  left: -6%;
+  color: #172b4d;
+  margin-right: 3px;
+}
+
+a:link {
+  text-decoration: none;
+}
