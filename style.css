@@ -1,15 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
-  background-image: url(header-shapes\ mobile.png);
-  background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
 
 header {
   display: flex;
-  margin: 5px;
-  padding: 5px;
+  margin: 1px;
+  padding: 1px;
 }
 
 .Logo h4 {
@@ -30,8 +28,10 @@ nav {
 }
 
 .Header-main {
+  background-image: url(header-shapes\ mobile.png);
+  background-repeat: no-repeat;
   width: 462px;
-  height: 587.15px;
+  height: 687.15px;
   left: -34px;
   top: 104px;
 }
@@ -46,6 +46,8 @@ nav {
   font-size: 45px;
   line-height: 52px;
   display: flex;
+  position: relative;
+  top: 5%;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -54,6 +56,8 @@ nav {
 }
 
 .Header-main p {
+  position: relative;
+  top: 2.5%;
   padding-right: 100px;
   margin-left: 10px;
   margin-right: 30px;
@@ -68,6 +72,8 @@ nav {
 }
 
 .Header-main i {
+  position: relative;
+  left: -8%;
   color: #172b4d;
   margin-right: 3px;
 }
